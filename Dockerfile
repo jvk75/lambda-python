@@ -1,6 +1,6 @@
-FROM python:3.7
+FROM python:3.8
 MAINTAINER Jari Kalinainen <jari@klubitii.com>
-LABEL Description="Python 3.7 and AWS CLI with some common utilities and libraries. Made for gitalba CI/CD base image."
+LABEL Description="Python 3.8 and AWS CLI with some common utilities and libraries. Made for gitalba CI/CD base image."
 
 # Install AWS CLI (and some)
 RUN pip3 install awscli --upgrade \
